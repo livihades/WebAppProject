@@ -11,18 +11,13 @@
 
 <body>
   <main id="main-holder">
-    <h1 id="login-header">Login</h1>
+    <h1 id="login-header">Log in</h1>
     
     
-    <form id="login-form">
+    <form action="newUser.jsp" method="get" id="login-form">
       <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
       <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
-      <input type="submit" onClick="myFunction()" value="Login" id="login-form-submit">
-      <script>
-       function myFunction() {
-         window.location.href="http://localhost:8080/WebAppProject/newUser.jsp";
-       }
-     </script>
+      <input type="submit" value="Login" id="login-form-submit">
     </form>
  
   </main>
