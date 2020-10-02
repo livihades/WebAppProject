@@ -34,7 +34,7 @@ public class mysqlcontroller {
          //Retrieve by column name
          String username  = rs.getString("username");
          String name = rs.getString("name");
-         int dateofbirth = rs.getInt("dateofbirth");
+         String dateofbirth = rs.getString("dateofbirth");
          String password = rs.getString("password");
 
          //Display values
@@ -69,4 +69,4 @@ public class mysqlcontroller {
    }//end try
    System.out.println("Goodbye!");
 }//end main
-}//end FirstExample
+}//end mysqlcontroller
