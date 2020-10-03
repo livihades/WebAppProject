@@ -14,7 +14,7 @@
     <h1 id="login-header">Log in</h1>
     
     
-    <form action="newUser.jsp" method="get" id="login-form">
+    <form method="post" action="newUser.jsp" id="login-form" name="login-form">
       <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
       <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
       <input type="submit" value="Login" id="login-form-submit">
