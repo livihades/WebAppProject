@@ -16,7 +16,8 @@
     
     <form id="homepage-form">
 
-      <label type="Text" name="Name"/>
+      <input type="Text" name="Name"/>
+      <label type="Date" name="Date of birth"/>
       <input type="button" onclick="location.href='http://localhost:8080/WebAppProject/pageUpdate.jsp';" value="Page Update" />
       <input type="button" onclick="location.href='http://localhost:8080/WebAppProject/products.jsp';" value="Products" />
       <input type="button" onclick="location.href='http://localhost:8080/WebAppProject/basket.jsp';" value="Basket" />
