@@ -12,13 +12,12 @@
 <body>
   <main id="main-holder">
     <h1 id="update-header">Page Update</h1>
-    
-  
+
     
     <form id="update-form">
       <input type="text" name="name" id="name-field" class="update-form-field" placeholder="Name">
       <input type="date" name="dateofbirth" id="date-field" class="update-form-field" placeholder="Date">
-      <input type="submit" value="Update" id="update-form-submit">
+      <input type="submit" value="Update" id="update-form-submit" onclick="location.href='http://localhost:8080/WebAppProject/myhomepage.jsp';">
     </form>
     
     <%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>

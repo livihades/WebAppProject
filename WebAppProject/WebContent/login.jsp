@@ -20,7 +20,8 @@
 	    else {
 	    	session.setAttribute("username", request.getParameter("username"));
 	    	session.setAttribute("password", request.getParameter("password"));
-	    	System.out.println("hi");
+	    	session.setAttribute("dateofbirth", request.getParameter("dateofbirth"));
+	    	session.setAttribute("name", request.getParameter("name"));
 	    	response.sendRedirect("newUser.jsp");
 	    	
 	   }
